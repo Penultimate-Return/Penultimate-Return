@@ -7,3 +7,14 @@ body {
 h1 {
     text-align: center;
 }
+
+img.profile {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
